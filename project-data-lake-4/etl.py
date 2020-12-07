@@ -8,9 +8,12 @@ from pyspark.sql.functions import (year, month, dayofmonth, hour,
                                    weekofyear, dayofweek, date_format,
                                    monotonically_increasing_id)
 
-
+"""Initialization"""
 config = configparser.ConfigParser()
-config.read('dl.cfg')
+
+"""Read the confgiurations file"""
+config.read('ds.cfg')
+
 
 os.environ['AWS_ACCESS_KEY_ID'] = config['AWS']['AWS_ACCESS_KEY_ID']
 os.environ['AWS_SECRET_ACCESS_KEY'] = config['AWS']['AWS_SECRET_ACCESS_KEY']
