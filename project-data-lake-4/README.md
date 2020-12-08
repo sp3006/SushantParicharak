@@ -38,7 +38,7 @@ AWS_SECRET_ACCESS_KEY = <your aws secret>
 # Installation
 Make a new directory and clone/copy project files into it.
 
-# Download and install Apache Spark here https://spark.apache.org/downloads.html. Also ensure you have Java jdk8 installed locally.
+## Download and install Apache Spark here https://spark.apache.org/downloads.html. Also ensure you have Java jdk8 installed locally.
 
 Create a virtualenv that will be your development environment, i.e:
 
